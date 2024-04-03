@@ -1,5 +1,5 @@
 def get_fixed_price(S_cost, discount):
-    F_cost = S_cost * ((100 - discount) / 100)
+    F_cost = S_cost / ((100 - discount) / 100)
     return F_cost
 
 discount = int(input("할인률을 입력하세요(%) :"))
